@@ -360,6 +360,7 @@ header>div:nth-child(6) {
 
 .answer p {
     font-size: 15px;
+    color: black;
 }
 
 .answer>img {
