@@ -367,11 +367,12 @@ main {
     font-size: 13px;
 }
 
-.card--container {
+.card--container,
+.question-answer-container {
     box-sizing: border-box;
     padding: 12px 12px 0px;
-    margin: 10px 0;
     position: relative;
+    margin: 10px 5px;
     display: block;
     width: 588.5px;
     height: auto;
@@ -465,6 +466,7 @@ main {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    margin: 3px 0px;
 }
 
 .statistic {
