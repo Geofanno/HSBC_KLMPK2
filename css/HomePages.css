@@ -301,3 +301,68 @@ main {
 .space-name {
     font-size: 13px;
 }
+
+.card-container {
+    box-sizing: border-box;
+    padding: 12px 12px 0px;
+    margin: 10px 0;
+    position: relative;
+    display: block;
+    width: 588.5px;
+    height: auto;
+    border: 0.1px solid #636466;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(1px);
+}
+
+.question--box,
+.question__actions,
+.answer--action,
+.ask--action,
+.post--action {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.quisioner--image {
+    height: 30x;
+}
+
+.ask__box {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dee0e1;
+    border-radius: 1000px;
+    width: 520.5px;
+    height: 30px;
+}
+
+.ask__box::placeholder {
+    color: #939598;
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.answer--action,
+.ask--action,
+.post--action {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px 5px 10px;
+}
+
+.action__separator {
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: #dee0e1;
+    height: 16px;
+}
+
+.ask--text,
+.answer--text,
+.post--text {
+    color: #636466;
+    font-size: 13px;
+}
